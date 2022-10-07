@@ -11,7 +11,7 @@ namespace Training.Day2
             Console.WriteLine(Sum(inputs, evenOnly: true));
             Console.ReadLine();
         }
-        
+
         public abstract class Summation
         {
             protected virtual bool Check(int x) => true;
@@ -51,7 +51,7 @@ namespace Training.Day2
             }
             return sum;
         }
-        
+
         public static int SumF(List<int> inputs, Func<int, bool> pred)
         {
             int sum = 0;
