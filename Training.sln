@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
@@ -17,11 +16,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Day4.Core", "labs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Day5", "labs\Training.Day5\Training.Day5.csproj", "{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Day6", "labs\Training.Day6\Training.Day6.csproj", "{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "labs", "labs", "{AFAF662C-496C-4BB9-912E-DF574B7665BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assignment", "assignment", "{373BCA3A-97B8-4DF5-8E7C-7F585D147A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Day6", "labs\Training.Day6\Training.Day6.csproj", "{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheUniversity", "assignment\TheUniversity\TheUniversity.csproj", "{6D23E8FD-4907-420E-B782-BD013C7D228A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheUniversity.Sandbox", "assignment\TheUniversity.Sandbox\TheUniversity.Sandbox.csproj", "{BD5BE887-A403-44F5-BC08-98D6E734B915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +60,14 @@ Global
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D23E8FD-4907-420E-B782-BD013C7D228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D23E8FD-4907-420E-B782-BD013C7D228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D23E8FD-4907-420E-B782-BD013C7D228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D23E8FD-4907-420E-B782-BD013C7D228A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5BE887-A403-44F5-BC08-98D6E734B915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5BE887-A403-44F5-BC08-98D6E734B915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5BE887-A403-44F5-BC08-98D6E734B915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5BE887-A403-44F5-BC08-98D6E734B915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +80,8 @@ Global
 		{2858D2E2-DF3C-4474-96D5-E0C5D63C2514} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
 		{71B66A46-3EF2-4D73-B084-60CDD3756025} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
-		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
+		{6D23E8FD-4907-420E-B782-BD013C7D228A} = {373BCA3A-97B8-4DF5-8E7C-7F585D147A8D}
+		{BD5BE887-A403-44F5-BC08-98D6E734B915} = {373BCA3A-97B8-4DF5-8E7C-7F585D147A8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F3D042F-6C60-4339-B68D-1B099D96C529}
