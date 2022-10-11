@@ -23,7 +23,7 @@ namespace TheUniversity.Repositories
         public Task<IEnumerable<StudentReport>> AllReports()
         {
             return _conn.QueryAsync<StudentReport>(@"
-                 SELECT Id, FirstName, LastName, Grade
+                 SELECT Id, FirstName, LastName, Score
                  FROM Student
                     INNER JOIN (SELECT StudentId, SUM(Grade) AS Score FROM SubjectResult GROUP BY StudentId) AS p ON p.StudentId = Student.Id
                  ORDER BY Score");
