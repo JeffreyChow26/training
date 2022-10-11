@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .side-pane {
+            background: rgb(198, 135, 198);
+            border: 1px solid white;
+        }
+
+        .mid-pane {
+            background: rgb(134, 223, 134);
+            border: 1px solid white;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto auto auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="side-pane">
+            Left Pane Content
+        </div>
+        <div class="mid-pane" style="grid-column: 2 / span 2;">
+            Main Content
+        </div>
+        <div class="side-pane">
+            Right Pane Content
+        </div>
+
+        <div class="side-pane">
+            Left Pane Option 1
+        </div>
+        <div class="mid-pane">
+            Main Content Option 1
+        </div>
+        <div class="mid-pane">
+            Main Content Option 2
+        </div>
+        <div class="side-pane">
+            Right Pane Option 1
+        </div>
+    </div>
+</body>

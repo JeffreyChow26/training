@@ -9,7 +9,22 @@ namespace Training.Day3
             string NameId { get; }
         }
 
-        public class CustomStack<T>
+        public interface IPopOnlyStack<out T>
+        {
+            T Pop();
+        }
+
+        public interface IPushOnlyStack<in T>
+        {
+            void Push(T value);
+        }
+
+        public interface ICustomStack<T> : IPushOnlyStack<T>, IPopOnlyStack<T>
+        {
+            int Count();
+        }
+
+        public class CustomStack<T> : ICustomStack<T>
         {
             private int _index;
             private readonly T[] _array = new T[10];
@@ -21,7 +36,7 @@ namespace Training.Day3
 
         public class CustomStackExtendedOf
         {
-            public static void DisplayAllInternsNameAndId<T>(CustomStack<T> stack) where T : INamedEntity
+            public static void DisplayAllInternsNameAndId(ICustomStack<INamedEntity> stack)
             {
                 while (stack.Count() > 0)
                     Console.WriteLine(stack.Pop().NameId);
@@ -41,7 +56,7 @@ namespace Training.Day3
 
         public static void Main()
         {
-            var stack = new CustomStack<Jedi>();
+            var stack = new CustomStack<INamedEntity>();
 
             stack.Push(new Jedi("Jane", 1));
             stack.Push(new Jedi("John", 4));

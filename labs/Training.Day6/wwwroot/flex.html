@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .h-50px {
+            height: 50px;
+        }
+
+        .side-pane {
+            background: rgb(198, 135, 198);
+            border: 1px solid white;
+        }
+
+        .mid-pane {
+            background: rgb(134, 223, 134);
+            border: 1px solid white;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row h-50px">
+        <div class="col side-pane">
+            Left Pane Content
+        </div>
+        <div class="col mid-pane">
+            Main Content
+        </div>
+        <div class="col side-pane">
+            Right Pane Content
+        </div>
+    </div>
+
+    <div class="row h-50px">
+        <div class="col side-pane">
+            Left Pane Option 1
+        </div>
+        <div class="col">
+            <div class="col mid-pane">
+                Main Content Option 1
+            </div>
+            <div class="col mid-pane">
+                Main Content Option 2
+            </div>
+        </div>
+        <div class="col side-pane">
+            Right Pane Option 1
+        </div>
+    </div>
+</body>

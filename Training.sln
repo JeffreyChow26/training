@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "labs", "labs", "{AFAF662C-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assignment", "assignment", "{373BCA3A-97B8-4DF5-8E7C-7F585D147A8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Day6", "labs\Training.Day6\Training.Day6.csproj", "{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{2858D2E2-DF3C-4474-96D5-E0C5D63C2514} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
 		{71B66A46-3EF2-4D73-B084-60CDD3756025} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
 		{AB0DE3E2-0DC4-48FF-A6F6-38FADE4FC314} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
+		{1ECF9FBE-7B21-4E8A-9958-55FD8249E5CC} = {AFAF662C-496C-4BB9-912E-DF574B7665BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F3D042F-6C60-4339-B68D-1B099D96C529}
