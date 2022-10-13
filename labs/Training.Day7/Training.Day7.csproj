@@ -35,5 +35,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="wwwroot\feedback.html" />
+    <Content Include="wwwroot\feedback.style.css" />
+    <Content Include="wwwroot\form.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
